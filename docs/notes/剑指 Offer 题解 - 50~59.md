@@ -140,7 +140,7 @@ private void merge(int[] nums, int l, int m, int h) {
 
 ## 题目描述
 
-<div align="center"> <img src="pics/8f6f9dc9-9ecd-47c8-b50e-2814f0219056.png" width="500"/> </div><br>
+<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/8f6f9dc9-9ecd-47c8-b50e-2814f0219056.png" width="500"/> </div><br>
 
 ## 解题思路
 
@@ -232,7 +232,7 @@ private void inOrder(TreeNode root, int k) {
 
 从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。
 
-<div align="center"> <img src="pics/b29f8971-9cb8-480d-b986-0e60c2ece069.png" width="350"/> </div><br>
+<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/b29f8971-9cb8-480d-b986-0e60c2ece069.png" width="350"/> </div><br>
 
 ## 解题思路
 
@@ -250,7 +250,7 @@ public int TreeDepth(TreeNode root) {
 
 平衡二叉树左右子树高度差不超过 1。
 
-<div align="center"> <img src="pics/e026c24d-00fa-4e7c-97a8-95a98cdc383a.png" width="300"/> </div><br>
+<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/e026c24d-00fa-4e7c-97a8-95a98cdc383a.png" width="300"/> </div><br>
 
 ## 解题思路
 
@@ -501,5 +501,5 @@ public ArrayList<Integer> maxInWindows(int[] num, int size) {
 
 
 
-</br><div align="center">欢迎关注公众号，获取最新文章！</div></br></br>
+</br><div align="center">⭐️欢迎关注我的公众号 CyC2018，在公众号后台回复关键字 📚 **资料** 可领取复习大纲，这份大纲是我花了一整年时间整理的面试知识点列表，不仅系统整理了面试知识点，而且标注了各个知识点的重要程度，从而帮你理清多而杂的面试知识点。可以说我基本是按照这份大纲来进行复习的，这份大纲对我拿到了 BAT 头条等 Offer 起到很大的帮助。你们完全可以和我一样根据大纲上列的知识点来进行复习，就不用看很多不重要的内容，也可以知道哪些内容很重要从而多安排一些复习时间。</div></br>
 <div align="center"><img width="180px" src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg"></img></div>

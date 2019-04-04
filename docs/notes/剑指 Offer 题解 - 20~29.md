@@ -90,7 +90,7 @@ public boolean isNumeric(char[] str) {
 
 需要保证奇数和奇数，偶数和偶数之间的相对位置不变，这和书本不太一样。
 
-<div align="center"> <img src="pics/7_2001550475133282.png"/> </div><br>
+<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/7_2001550475133282.png"/> </div><br>
 
 ## 解题思路
 
@@ -120,7 +120,7 @@ public void reOrderArray(int[] nums) {
 
 设链表的长度为 N。设两个指针 P1 和 P2，先让 P1 移动 K 个节点，则还有 N - K 个节点可以移动。此时让 P1 和 P2 同时移动，可以知道当 P1 移动到链表结尾时，P2 移动到 N - K 个节点处，该位置就是倒数第 K 个节点。
 
-<div align="center"> <img src="pics/ea2304ce-268b-4238-9486-4d8f8aea8ca4.png" width="500"/> </div><br>
+<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/ea2304ce-268b-4238-9486-4d8f8aea8ca4.png" width="500"/> </div><br>
 
 ```java
 public ListNode FindKthToTail(ListNode head, int k) {
@@ -154,7 +154,7 @@ public ListNode FindKthToTail(ListNode head, int k) {
 
 在相遇点，slow 要到环的入口点还需要移动 z 个节点，如果让 fast 重新从头开始移动，并且速度变为每次移动一个节点，那么它到环入口点还需要移动 x 个节点。在上面已经推导出 x=z，因此 fast 和 slow 将在环入口点相遇。
 
-<div align="center"> <img src="pics/d5d3b7ae-2712-412e-98f1-633ce6ec5955.png" width="500"/> </div><br>
+<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/d5d3b7ae-2712-412e-98f1-633ce6ec5955.png" width="500"/> </div><br>
 
 
 ```java
@@ -216,7 +216,7 @@ public ListNode ReverseList(ListNode head) {
 
 ## 题目描述
 
-<div align="center"> <img src="pics/43f2cafa-3568-4a89-a895-4725666b94a6.png" width="500"/> </div><br>
+<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/43f2cafa-3568-4a89-a895-4725666b94a6.png" width="500"/> </div><br>
 
 ## 解题思路
 
@@ -268,7 +268,7 @@ public ListNode Merge(ListNode list1, ListNode list2) {
 
 ## 题目描述
 
-<div align="center"> <img src="pics/4583e24f-424b-4d50-8a14-2c38a1827d4a.png" width="500"/> </div><br>
+<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/4583e24f-424b-4d50-8a14-2c38a1827d4a.png" width="500"/> </div><br>
 
 ## 解题思路
 
@@ -296,7 +296,7 @@ private boolean isSubtreeWithRoot(TreeNode root1, TreeNode root2) {
 
 ## 题目描述
 
-<div align="center"> <img src="pics/a2d13178-f1ef-4811-a240-1fe95b55b1eb.png" width="300"/> </div><br>
+<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/a2d13178-f1ef-4811-a240-1fe95b55b1eb.png" width="300"/> </div><br>
 
 ## 解题思路
 
@@ -318,11 +318,11 @@ private void swap(TreeNode root) {
 
 # 28 对称的二叉树
 
-[NowCder](https://www.nowcoder.com/practice/ff05d44dfdb04e1d83bdbdab320efbcb?tpId=13&tqId=11211&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+[NowCoder](https://www.nowcoder.com/practice/ff05d44dfdb04e1d83bdbdab320efbcb?tpId=13&tqId=11211&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 题目描述
 
-<div align="center"> <img src="pics/f42443e0-208d-41ea-be44-c7fd97d2e3bf.png" width="300"/> </div><br>
+<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/f42443e0-208d-41ea-be44-c7fd97d2e3bf.png" width="300"/> </div><br>
 
 ## 解题思路
 
@@ -352,7 +352,7 @@ boolean isSymmetrical(TreeNode t1, TreeNode t2) {
 
 下图的矩阵顺时针打印结果为：1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10
 
-<div align="center"> <img src="pics/8_2001550475451664.png"/> </div><br>
+<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/8_2001550475451664.png"/> </div><br>
 
 ## 解题思路
 
@@ -380,5 +380,5 @@ public ArrayList<Integer> printMatrix(int[][] matrix) {
 
 
 
-</br><div align="center">欢迎关注公众号，获取最新文章！</div></br></br>
+</br><div align="center">⭐️欢迎关注我的公众号 CyC2018，在公众号后台回复关键字 📚 **资料** 可领取复习大纲，这份大纲是我花了一整年时间整理的面试知识点列表，不仅系统整理了面试知识点，而且标注了各个知识点的重要程度，从而帮你理清多而杂的面试知识点。可以说我基本是按照这份大纲来进行复习的，这份大纲对我拿到了 BAT 头条等 Offer 起到很大的帮助。你们完全可以和我一样根据大纲上列的知识点来进行复习，就不用看很多不重要的内容，也可以知道哪些内容很重要从而多安排一些复习时间。</div></br>
 <div align="center"><img width="180px" src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg"></img></div>
