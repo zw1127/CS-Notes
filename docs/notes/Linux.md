@@ -205,7 +205,7 @@ IDE（ATA）全称 Advanced Technology Attachment，接口速度最大为 133MB/
 
 ### 2. SATA
 
-SATA 全称 Serial ATA，也就是使用串口的 ATA 接口，抗干扰性强，且对数据线的长度要求比 ATA 低很多，支持热插拔等功能。SATA-II 的接口速度为 300MiB/s，而 SATA-III 标准可达到 600MiB/s 的传输速度。SATA 的数据线也比 ATA 的细得多，有利于机箱内的空气流通，整理线材也比较方便。
+SATA 全称 Serial ATA，也就是使用串口的 ATA 接口，抗干扰性强，且对数据线的长度要求比 ATA 低很多，支持热插拔等功能。SATA-II 的接口速度为 300MB/s，而 SATA-III 标准可达到 600MB/s 的传输速度。SATA 的数据线也比 ATA 的细得多，有利于机箱内的空气流通，整理线材也比较方便。
 
 <div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/f9f2a16b-4843-44d1-9759-c745772e9bcf.jpg" width=""/> </div><br>
 
@@ -1021,7 +1021,7 @@ g/re/p（globally search a regular expression and print)，使用正则表示式
 
 ```html
 $ grep [-acinv] [--color=auto] 搜寻字符串 filename
--c ： 统计个数
+-c ： 统计匹配到行的个数
 -i ： 忽略大小写
 -n ： 输出行号
 -v ： 反向选择，也就是显示出没有 搜寻字符串 内容的那一行
@@ -1039,7 +1039,7 @@ $ grep -n 'the' regular_express.txt
 18:google is the best tools for search keyword
 ```
 
-示例：正则表达式 a{m,n} 用来匹配字符 a m\~n 次，这里需要将 { 和 } 进行转移，因为它们在 shell 是有特殊意义的。
+示例：正则表达式 a{m,n} 用来匹配字符 a m\~n 次，这里需要将 { 和 } 进行转义，因为它们在 shell 是有特殊意义的。
 
 ```html
 $ grep -n 'a\{2,5\}' regular_express.txt

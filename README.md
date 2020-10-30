@@ -16,8 +16,6 @@
     <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/githubio/LogoMakr_0zpEzN.png" width="200px">
 </div>
 
-
-
 <br>
 
 ## :pencil2: 算法
@@ -25,7 +23,7 @@
 - [剑指 Offer 题解](https://github.com/CyC2018/CS-Notes/blob/master/notes/剑指%20Offer%20题解%20-%20目录.md)
 - [Leetcode 题解](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20题解%20-%20目录.md)
 - [算法](https://github.com/CyC2018/CS-Notes/blob/master/notes/算法%20-%20目录.md)
-- [笔试面试题库](https://www.nowcoder.com/contestRoom?from=cyc_github)
+- [字节跳动内推](assets/内推.md)
 
 ## :computer: 操作系统
 
@@ -82,17 +80,9 @@
 
 ## :memo: 后记
 
-<div align="center">
-	<a href="https://www.nowcoder.com/discuss/137593?from=cyc_github"> 我的面经 </a> / <a href="https://cyc2018.github.io"> 我的简历 </a> / <a href="https://github.com/CyC2018/Markdown-Resume"> 简历模版 </a> / <a href="https://github.com/CyC2018/Job-Recommend"> 内推 </a> / <a href="https://xiaozhuanlan.com/CyC2018"> 专栏 </a> / <a href="assets/QQ2群.png"> QQ 群</a>
-	<br><br>
-    <img width="320px" src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/githubio/公众号二维码-2.png"></img>
-</div>
-
-
-
 ### 排版
 
-笔记内容按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 进行排版，以保证内容的可读性。
+笔记内容按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md) 进行排版，以保证内容的可读性。
 
 不使用 `![]()` 这种方式来引用图片，而是用 `<img>` 标签。一方面是为了能够控制图片以合适的大小显示，另一方面是因为 [GFM](https://github.github.com/gfm/) 不支持 `<center> ![]() </center>` 这种方法让图片居中显示，只能使用 `<div align="center"> <img src=""/> </div>` 达到居中的效果。
 
